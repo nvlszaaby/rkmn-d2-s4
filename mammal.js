@@ -7,9 +7,9 @@ class Animal{
         this.canReproduce = canReproduce
         this.#age = age
     }
-    get #Age(){
-        return this.#age
-    }
+    // get #Age(){
+    //     return this.#age
+    //}
     isAdult(){ //breaking encapsulation
         return this.#age > 18
         }
